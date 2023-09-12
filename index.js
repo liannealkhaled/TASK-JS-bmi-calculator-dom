@@ -22,4 +22,12 @@ function calculateBMI() {
   } else {
     alert(`obesity`);
   }
+  alert(BMI && age);
+  if (BMI >= 19 && BMI <= 24 && age >= 19 && age <= 24) {
+    alert(`healthy`);
+  } else {
+    alert(`unhealthy`);
+  }
+
+  //
 }
